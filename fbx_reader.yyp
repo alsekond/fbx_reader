@@ -1,0 +1,826 @@
+{
+    "id": "89dba0b4-36e3-4f9e-8aa4-454f465cd089",
+    "modelName": "GMProject",
+    "mvc": "1.0",
+    "IsDnDProject": false,
+    "configs": [
+        
+    ],
+    "option_ecma": false,
+    "parentProject": {
+        "id": "8e78738d-9786-4276-a1cd-760b29af5359",
+        "modelName": "GMProjectParent",
+        "mvc": "1.0",
+        "alteredResources": [
+            {
+                "Key": "ed6a955d-5826-4f98-a450-10b414266c27",
+                "Value": {
+                    "configDeltas": [
+                        "inherited"
+                    ],
+                    "id": "1fee5ef0-1b91-4c7b-aa55-d2b1b43c204b",
+                    "resourcePath": "options\\main\\options_main.yy",
+                    "resourceType": "GMMainOptions"
+                }
+            }
+        ],
+        "hiddenResources": [
+            
+        ],
+        "projectPath": "${base_project}"
+    },
+    "resources": [
+        {
+            "Key": "00b03550-84f9-4b20-bdee-bf52837a566f",
+            "Value": {
+                "id": "37daed8e-9d4b-41f6-b83b-8a5aa04e7d26",
+                "resourcePath": "scripts\\shader_set_sampler\\shader_set_sampler.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "00f86496-c8d9-471c-b851-a9152787a9e4",
+            "Value": {
+                "id": "918036e5-1d45-4309-bcd3-c2281a90ceb3",
+                "resourcePath": "views\\00f86496-c8d9-471c-b851-a9152787a9e4.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "02e5b11c-8d1c-420d-a373-994d30f5923c",
+            "Value": {
+                "id": "2086ba23-d5bb-498e-ba10-7eea6c99af42",
+                "resourcePath": "scripts\\model_load_vbf\\model_load_vbf.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "0692bc6b-fba1-434e-8f24-a588d6c7c223",
+            "Value": {
+                "id": "fdbd9998-9f78-451e-ba5f-0bf0705bd774",
+                "resourcePath": "datafiles_yy\\assets\\cw_arm.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "073b176f-dc5c-4c6e-80d8-19e5c605e4bf",
+            "Value": {
+                "id": "2e310569-b992-4490-bd34-6761022cbdac",
+                "resourcePath": "datafiles_yy\\assets\\breathing_arm.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "0b215f60-108c-45e3-b8a1-b55451ce1ea6",
+            "Value": {
+                "id": "1643b039-af8c-4d28-bb00-c4633f68efb3",
+                "resourcePath": "datafiles_yy\\death_stroke.fbx.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "0e502ec2-d1d8-4772-862a-f72f07bf1c8d",
+            "Value": {
+                "id": "e8520c8a-5ad3-4882-b865-30120e0e6334",
+                "resourcePath": "datafiles_yy\\assets\\m1911_arm.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "0f2775fb-3853-4438-8ef0-9755246d2a0d",
+            "Value": {
+                "id": "22621e43-d5b6-4d34-901d-56cfe7a9560f",
+                "resourcePath": "objects\\obj_con\\obj_con.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "0f500dc4-3da3-48f9-a2d3-a3f5f0ab01aa",
+            "Value": {
+                "id": "23747cce-1a11-47fd-bb7a-4325099a49ab",
+                "resourcePath": "views\\0f500dc4-3da3-48f9-a2d3-a3f5f0ab01aa.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "139035e7-429c-4175-91fd-a5dc83dd719f",
+            "Value": {
+                "id": "935ef196-0ec9-4936-9186-d9d7563bcd15",
+                "resourcePath": "datafiles_yy\\assets\\sups_nrm.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "16572e2e-4e82-423c-b79d-e8f7193b0e86",
+            "Value": {
+                "id": "074e8b8a-31e3-4b83-8475-fc1b00fbabac",
+                "resourcePath": "datafiles_yy\\assets\\stormtrooper_nrm.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "1ab27a2f-da77-4e28-8a72-a2a3b8a3b238",
+            "Value": {
+                "id": "346024ba-6c44-413c-9ea9-cd477bc5c708",
+                "resourcePath": "datafiles_yy\\gun_bot.fbx.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "1b6b2f32-7c5d-41c4-9895-f9f84d447da7",
+            "Value": {
+                "id": "17e9e2f6-25ae-4304-9bc5-1bd3e8a4f7d7",
+                "resourcePath": "scripts\\shader_set_float\\shader_set_float.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "1bad4353-3b76-47fe-b605-54bc06bc73b3",
+            "Value": {
+                "id": "83d2c439-353f-440c-92b2-f013549bcc25",
+                "resourcePath": "objects\\obj_camera\\obj_camera.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "1cc14ec1-bab6-43c8-bc9d-bdd45856c39a",
+            "Value": {
+                "id": "846929f5-44fa-47fe-99ee-954e4c4c99ea",
+                "resourcePath": "datafiles_yy\\assets\\rock_emv.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "1d357ac3-3019-4420-8937-ae1ab6601c00",
+            "Value": {
+                "id": "01de55a5-610d-413d-aa14-8dacab424c32",
+                "resourcePath": "datafiles_yy\\assets\\big_scary_emv.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "1d95dc23-180a-4d9d-b964-cdf26b4e7535",
+            "Value": {
+                "id": "23785975-8391-45aa-97f4-fe725a964714",
+                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "20759a2b-5978-4981-a371-1233f59e132f",
+            "Value": {
+                "id": "69ad100f-64f6-47c9-bf4c-322b07e92608",
+                "resourcePath": "datafiles_yy\\assets\\darth_talon_arm.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "28522aab-2c2d-4811-861e-40f65dee5ee5",
+            "Value": {
+                "id": "3f977374-bed1-4b05-8d8b-b005a977a15f",
+                "resourcePath": "views\\28522aab-2c2d-4811-861e-40f65dee5ee5.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2bad0f7f-d2d2-4ec7-84af-de4d7ac12a82",
+            "Value": {
+                "id": "00ba1b02-0411-4d42-9cc6-cbc79f477520",
+                "resourcePath": "datafiles_yy\\darth_talon.fbx.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "2c3588fe-7c9c-4229-9888-24f9b7e69f02",
+            "Value": {
+                "id": "3ac06d1a-6d8d-4593-9b16-6720c32cdde1",
+                "resourcePath": "datafiles_yy\\assets\\def_emv.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "3297e302-b4b7-47dd-87b8-61b025633263",
+            "Value": {
+                "id": "a486b822-347e-4922-9a1f-281fd227610c",
+                "resourcePath": "views\\3297e302-b4b7-47dd-87b8-61b025633263.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "35a536e6-1fb4-4d82-bca5-2aefc54d2950",
+            "Value": {
+                "id": "eb88b50a-f0c4-430a-8f57-eb7ad7cbdef9",
+                "resourcePath": "datafiles_yy\\assets\\multytool_arm.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "4064acf3-435c-4040-8306-843d3f9ec87f",
+            "Value": {
+                "id": "b8ab971c-0daf-472b-91bb-9eca34b3750c",
+                "resourcePath": "datafiles_yy\\assets\\big_scary_arm.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "413e1cd9-093b-4d8d-bee4-042496ccda56",
+            "Value": {
+                "id": "da24acdd-dc65-4528-8e07-31859b487a1b",
+                "resourcePath": "shaders\\sha_pbr_mat\\sha_pbr_mat.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
+            "Key": "4577313c-c551-456e-8e26-e9313df3a52f",
+            "Value": {
+                "id": "973dd150-6f19-4531-a09e-5f674dd3d530",
+                "resourcePath": "datafiles_yy\\assets\\rock_arm.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "47da3575-0be1-4a84-bf0e-50cae4a4c120",
+            "Value": {
+                "id": "908266d9-ea31-4bd0-9cf6-aa7be3dbcec0",
+                "resourcePath": "datafiles_yy\\assets\\sups_alb.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "4859b0c8-0854-49ee-ab24-526912361cfd",
+            "Value": {
+                "id": "1bcbee8c-946d-4dcd-93e9-24aae2a9aad8",
+                "resourcePath": "datafiles_yy\\assets\\multytool_nrm.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "496cd942-d8c3-44b2-8676-a07b96984ea8",
+            "Value": {
+                "id": "19be1491-2137-415c-bf80-4d997d8980a3",
+                "resourcePath": "datafiles_yy\\raptoid_mascot.fbx.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "4971820a-b5ac-4cf7-9708-9a588c8bfc31",
+            "Value": {
+                "id": "cab94efc-80cc-4376-ae52-d3b2268bea6f",
+                "resourcePath": "datafiles_yy\\assets\\def_alb.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "55202ed8-3fff-4187-b932-e7e08805ae8e",
+            "Value": {
+                "id": "af01ee38-fe5f-4228-80f0-df16ded07c80",
+                "resourcePath": "datafiles_yy\\assets\\sups_arm.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "57faf07a-de1a-4d6a-86d3-4de417a5293b",
+            "Value": {
+                "id": "a24c0933-7e90-4bd0-a66d-675607bb1393",
+                "resourcePath": "views\\57faf07a-de1a-4d6a-86d3-4de417a5293b.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "588aa3f0-486e-4659-8cbf-1ccf928d7837",
+            "Value": {
+                "id": "9a358d18-ec5b-4d1a-98c7-98f35e424d87",
+                "resourcePath": "datafiles_yy\\breathing.fbx.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "5a3f2049-9d7f-402a-b3e1-7bcf5a7e3c03",
+            "Value": {
+                "id": "bfb466dd-c892-4000-a5b8-c01b38e8e6a0",
+                "resourcePath": "sprites\\spr_brdf_LUT\\spr_brdf_LUT.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "604a59cb-a91f-4b26-a2b6-bc8444203c73",
+            "Value": {
+                "id": "03c2aa52-40c3-4743-b6ea-bd3f88023fd3",
+                "resourcePath": "views\\604a59cb-a91f-4b26-a2b6-bc8444203c73.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "61943dce-59fa-4741-b744-453afa7e1ae2",
+            "Value": {
+                "id": "d9392634-b7fe-40e3-87ee-134698b31484",
+                "resourcePath": "datafiles_yy\\assets\\darth_talon_emv.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "627e7ab3-9cc7-49fd-ab4c-72c65408fe79",
+            "Value": {
+                "id": "5b5c6e54-04f7-4e2a-b010-a511029caa84",
+                "resourcePath": "datafiles_yy\\stormtrooper.fbx.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "631f4cf5-2d21-498b-afe7-05dace344971",
+            "Value": {
+                "id": "8294f74f-9dad-43e9-9acf-a3ae34e1d017",
+                "resourcePath": "datafiles_yy\\cyber_warrior.fbx.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "6416e057-55ee-41b1-b3b1-8e2129b5dae0",
+            "Value": {
+                "id": "855973f2-3902-4d16-87ee-896d2255eccb",
+                "resourcePath": "datafiles_yy\\assets\\m1911_nrm.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "65b6e424-9c7b-4e2e-8f59-035476661619",
+            "Value": {
+                "id": "f09a19f3-943d-490d-bb3b-d647d4f92757",
+                "resourcePath": "datafiles_yy\\assets\\stormtrooper_alb.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "66d35a0f-0c70-4e31-b51e-d4ce902084a4",
+            "Value": {
+                "id": "aaa77033-c5d3-450b-a1f3-e570c93e2431",
+                "resourcePath": "views\\66d35a0f-0c70-4e31-b51e-d4ce902084a4.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "69ed9f64-b076-46f2-b9c4-84ac84591810",
+            "Value": {
+                "id": "2d978681-d854-4779-bd86-5d336caa9e1e",
+                "resourcePath": "scripts\\draw_skybox\\draw_skybox.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "69ee8dfb-f54e-4b78-81f4-275d99ed3e95",
+            "Value": {
+                "id": "ec79ddac-597c-4031-a534-2e7d63e969e1",
+                "resourcePath": "datafiles_yy\\multytool.fbx.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "75ac291e-7061-4bcb-8e8a-3b3545332d41",
+            "Value": {
+                "id": "c1159a97-0879-46cf-882c-db4134f0684c",
+                "resourcePath": "options\\html5\\options_html5.yy",
+                "resourceType": "GMHtml5Options"
+            }
+        },
+        {
+            "Key": "77ecf0d8-9f19-4741-8fd1-41dadd2e36a7",
+            "Value": {
+                "id": "9916f132-be3e-4c13-bc53-84301ac73677",
+                "resourcePath": "datafiles_yy\\assets\\def_arm.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "7a01e59d-16be-41f7-b9b2-7ca3092c1adc",
+            "Value": {
+                "id": "35f14d92-501a-4062-b800-483fde21d29d",
+                "resourcePath": "views\\7a01e59d-16be-41f7-b9b2-7ca3092c1adc.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "80ca6ade-3b6e-47d3-a930-88243d3b6788",
+            "Value": {
+                "id": "c7acc134-0e9a-4e1b-816b-2ba2f8464ec3",
+                "resourcePath": "datafiles_yy\\assets\\breathing_emv.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "80cf0d88-f23d-45f9-9d8d-8ba29f243dfb",
+            "Value": {
+                "id": "98122131-884d-4f82-a505-b4a52302b42b",
+                "resourcePath": "datafiles_yy\\biped_robot.FBX.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "8427047f-9ef8-4c77-89f3-9c20623d07b6",
+            "Value": {
+                "id": "fcdfac62-0f88-4762-9ad3-d2b892c71bbf",
+                "resourcePath": "options\\ios\\options_ios.yy",
+                "resourceType": "GMiOSOptions"
+            }
+        },
+        {
+            "Key": "87f47462-4e25-40fa-a2a3-3a2f693eb0b3",
+            "Value": {
+                "id": "0846192e-befa-4756-bfd8-2e40bb13d9b8",
+                "resourcePath": "datafiles_yy\\sups.fbx.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "8a8d3659-e74b-4ec6-8687-988574d7ec15",
+            "Value": {
+                "id": "c175a60e-2165-43eb-9004-9f2200caac04",
+                "resourcePath": "datafiles_yy\\wolf.fbx.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "9083da6a-0125-4bbf-ac1e-6d428fad691c",
+            "Value": {
+                "id": "20098e9a-e33a-496d-ad59-f03a88a18977",
+                "resourcePath": "datafiles_yy\\assets\\companion_robot_emv.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "914178ea-6fe3-47d4-920f-7049edfad0a4",
+            "Value": {
+                "id": "10d371eb-ed7d-4540-90a4-a8d00d0a3674",
+                "resourcePath": "datafiles_yy\\assets\\darth_talon_nrm.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "99217214-8a30-4b16-a65b-fbd8d5ca27c7",
+            "Value": {
+                "id": "9cbe6156-2302-4380-829b-e6aeec59e353",
+                "resourcePath": "views\\99217214-8a30-4b16-a65b-fbd8d5ca27c7.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9ba13a1c-03dc-4814-b4f7-2f08d02b1bb2",
+            "Value": {
+                "id": "912f4d19-be61-4148-8cc4-a3bb98a27ff7",
+                "resourcePath": "datafiles_yy\\assets\\big_scary_nrm.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "9d7177d8-c4f0-433d-b1f4-bd36df64d8f7",
+            "Value": {
+                "id": "bce49109-3c28-4584-8195-30e1c88a9fea",
+                "resourcePath": "datafiles_yy\\assets\\cw_alb.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "9f2557b2-f8ae-4d94-acd5-4fe8774e8696",
+            "Value": {
+                "id": "b7ee8e03-850e-427f-a2f8-fccfa5466597",
+                "resourcePath": "datafiles_yy\\assets\\big_scary_alb.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "a128950b-5063-4876-b4a6-b99dbd2ea6d1",
+            "Value": {
+                "id": "26f5b277-3eee-4e68-9327-d4be2178d507",
+                "resourcePath": "options\\amazonfire\\options_amazonfire.yy",
+                "resourceType": "GMAmazonFireOptions"
+            }
+        },
+        {
+            "Key": "a25ce04c-fe17-4500-b86b-f8f1fedad28c",
+            "Value": {
+                "id": "23ff6170-28f8-4adf-a331-89fd0bd6b30d",
+                "resourcePath": "views\\a25ce04c-fe17-4500-b86b-f8f1fedad28c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a30e7776-2cb1-4134-8b06-a62428a37480",
+            "Value": {
+                "id": "35ab60a8-78c4-4b9c-8077-1de3b92fd5b3",
+                "resourcePath": "datafiles_yy\\assets\\companion_robot_nrm.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
+            "Value": {
+                "id": "bb2ed81a-00f6-44a2-8757-5885d64ae8a7",
+                "resourcePath": "options\\linux\\options_linux.yy",
+                "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "aa33968e-020d-4bf4-ab44-f51123ea15af",
+            "Value": {
+                "id": "916c8abb-629f-4786-a3f9-cdf47b0a26fb",
+                "resourcePath": "views\\aa33968e-020d-4bf4-ab44-f51123ea15af.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "abba092f-c1a5-4bf6-9482-30baad836e4d",
+            "Value": {
+                "id": "98f06298-c2c8-44ef-a5cc-69d994360b30",
+                "resourcePath": "datafiles_yy\\assets\\def_nrm.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "abbfad84-9275-44db-ba22-01aeaae92fea",
+            "Value": {
+                "id": "2990a1ec-10b1-42c7-9c26-900bce2c10c2",
+                "resourcePath": "datafiles_yy\\assets\\clouds_radiance.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "ac7b2586-f755-4634-a804-5971d2138299",
+            "Value": {
+                "id": "4f49c266-ec00-4f61-b568-295080f47942",
+                "resourcePath": "datafiles_yy\\m1911.fbx.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "ac8db56f-2a84-4411-98f4-bea302c62786",
+            "Value": {
+                "id": "2f0effe2-5944-4147-aec8-8467c758c06e",
+                "resourcePath": "views\\ac8db56f-2a84-4411-98f4-bea302c62786.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b12d216d-3911-4d08-b5ad-f64c96c82a18",
+            "Value": {
+                "id": "7ee270fe-6786-4ea2-a444-4e751bdc0883",
+                "resourcePath": "datafiles_yy\\assets\\rock_nrm.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "b5dca337-9352-43fa-8847-97068736426e",
+            "Value": {
+                "id": "ea574870-ebcc-463e-bfdf-192bf654848c",
+                "resourcePath": "datafiles_yy\\assets\\stormtrooper_arm.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "b8d99fa4-b455-477f-82de-fbb08c0f1c5b",
+            "Value": {
+                "id": "04f0e48b-7801-4d08-b250-247741ff4b98",
+                "resourcePath": "views\\b8d99fa4-b455-477f-82de-fbb08c0f1c5b.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "bb006b13-3141-4df5-8e61-255b2410a102",
+            "Value": {
+                "id": "a0b12fe6-915e-4f0e-b334-75ea308cd14b",
+                "resourcePath": "datafiles_yy\\assets\\companion_robot_alb.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "bbc0de0a-93c6-4311-885c-18883a459bdd",
+            "Value": {
+                "id": "b3d3e469-c0c8-4409-8356-3bcc071a3d15",
+                "resourcePath": "datafiles_yy\\assets\\multytool_emv.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "bd28cba2-9e12-43e6-9c49-05cec4b36e65",
+            "Value": {
+                "id": "6d01bba6-7731-4c6d-8f8c-3bb06a0c3111",
+                "resourcePath": "datafiles_yy\\assets\\cw_emv.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "bf0f20c5-bbfe-4e1e-b45c-8d86311694aa",
+            "Value": {
+                "id": "d3fb5f9f-7da3-4fb2-97e8-152dc78c7c75",
+                "resourcePath": "datafiles_yy\\assets\\companion_robot_arm.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "c0c3856f-e0e1-4547-9454-5c05f87c8cb1",
+            "Value": {
+                "id": "a81de30e-0908-43c7-9385-928411699977",
+                "resourcePath": "scripts\\trace\\trace.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c8ec9e71-d7b9-4156-b9d0-2516a78d4344",
+            "Value": {
+                "id": "d3316f4b-4181-4569-8a5f-f26f79aba3bb",
+                "resourcePath": "views\\c8ec9e71-d7b9-4156-b9d0-2516a78d4344.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "cbf57dae-01cf-4868-a984-9e7ea00b2a6e",
+            "Value": {
+                "id": "74221bb5-3edf-4090-9413-ccd7a5cabbdf",
+                "resourcePath": "datafiles_yy\\assets\\m1911_alb.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
+            "Value": {
+                "id": "1f8a0bb7-cadd-410b-b220-d992ea996e6c",
+                "resourcePath": "options\\windows\\options_windows.yy",
+                "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "ce30c653-3f9b-4c9d-98b8-af51a88e4284",
+            "Value": {
+                "id": "3481cd66-1c05-4f1a-a860-f97d461d64b4",
+                "resourcePath": "datafiles_yy\\assets\\cube.vbf.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "d0cc0119-8815-482a-a2df-09cb3fe656a7",
+            "Value": {
+                "id": "5761107e-1dad-4e47-ace1-059b5d248e1b",
+                "resourcePath": "extensions\\fbx\\fbx.yy",
+                "resourceType": "GMExtension"
+            }
+        },
+        {
+            "Key": "d0d5d828-35ee-4b57-8c9d-906a9428e2d3",
+            "Value": {
+                "id": "c0e18b7c-95b0-43d2-b857-913ca32bc795",
+                "resourcePath": "datafiles_yy\\fight2.fbx.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "d3859c1e-7374-4dd3-8b25-62d65b12b28e",
+            "Value": {
+                "id": "8845d15f-5cab-48ca-a761-a644097646b7",
+                "resourcePath": "datafiles_yy\\assets\\clouds.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "d5425990-f460-4d41-bc01-20e5a8c88099",
+            "Value": {
+                "id": "c33c5cbc-2fc3-42ad-9fda-9c03d3e57cb7",
+                "resourcePath": "views\\d5425990-f460-4d41-bc01-20e5a8c88099.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "dd6f3907-f5cd-4e11-91ea-ebf12140ed92",
+            "Value": {
+                "id": "fa66d672-7b82-4299-9047-1c6933b22cda",
+                "resourcePath": "datafiles_yy\\companion_robot.fbx.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "e0ba301a-bbfd-4181-89ff-3fd43aae06ab",
+            "Value": {
+                "id": "b0c0bdf4-6e80-4d10-bbdc-3019bcc5f400",
+                "resourcePath": "shaders\\sha_env_equirect\\sha_env_equirect.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
+            "Key": "e33f8beb-2182-4984-aee6-4a2b06e7fcaf",
+            "Value": {
+                "id": "06d9b4ea-ac20-449e-b26f-990db50a7b1f",
+                "resourcePath": "datafiles_yy\\assets\\rock_alb.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "e4027b96-c005-4809-bb23-38fcef856fdb",
+            "Value": {
+                "id": "6685692e-6d71-4131-9390-4f4bce0c03df",
+                "resourcePath": "datafiles_yy\\assets\\m1911_emv.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "e4212d73-69a0-4cbc-a3cc-b6022b91a752",
+            "Value": {
+                "id": "6cb9f837-62e6-4254-9180-4512228a5ca6",
+                "resourcePath": "views\\e4212d73-69a0-4cbc-a3cc-b6022b91a752.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e42bf5cc-3f46-4d67-a6d0-a4885a11ac3f",
+            "Value": {
+                "id": "fd1646e4-cf9c-406e-9966-46e9d7bba116",
+                "resourcePath": "options\\android\\options_android.yy",
+                "resourceType": "GMAndroidOptions"
+            }
+        },
+        {
+            "Key": "e708b1b4-9b38-4195-9f5f-5472db3e796f",
+            "Value": {
+                "id": "f80b36d7-7e48-46e5-b95f-4d649101e5af",
+                "resourcePath": "datafiles_yy\\assets\\sups_emv.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "e7539061-73f7-4a23-a095-815d9b5407f5",
+            "Value": {
+                "id": "3dd88d73-eb60-4dff-8551-9ee0e201babe",
+                "resourcePath": "datafiles_yy\\assets\\stormtrooper_emv.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "e9f79b5e-e91b-491f-a24d-264e23a8fc82",
+            "Value": {
+                "id": "88059181-3973-48f1-bd13-97aedf7a5e9c",
+                "resourcePath": "views\\e9f79b5e-e91b-491f-a24d-264e23a8fc82.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ee495a5f-fe9e-4110-bab1-7bbe9aba9a88",
+            "Value": {
+                "id": "6935174d-66bf-4ea7-bffb-77337ee7a283",
+                "resourcePath": "datafiles_yy\\assets\\breathing_nrm.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "ee6a6bc6-4478-46dd-81d1-076f40a200f8",
+            "Value": {
+                "id": "ea12416d-f31e-4a8e-8c73-eb3c3b398bfd",
+                "resourcePath": "datafiles_yy\\big_scary.fbx.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "f07059e3-94b7-480d-b672-6a6056533c8d",
+            "Value": {
+                "id": "c2f14b41-dfa4-47b5-b0bf-fb95cd61f413",
+                "resourcePath": "datafiles_yy\\assets\\breathing_alb.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "f189a690-3b1a-4fcb-ab71-fc7c3a973959",
+            "Value": {
+                "id": "4419648e-882e-4207-9988-cc5eafec3b61",
+                "resourcePath": "datafiles_yy\\assets\\darth_talon_alb.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "f3aca89a-5307-4662-a8b4-0cec108fd320",
+            "Value": {
+                "id": "449a77c2-3c0c-4bcb-b39f-ce2f33ac0197",
+                "resourcePath": "datafiles_yy\\assets\\multytool_alb.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
+            "Value": {
+                "id": "8ab78205-434a-4972-aca7-12a4b7fb472a",
+                "resourcePath": "options\\mac\\options_mac.yy",
+                "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f6ee549c-8e39-4485-93f2-91213bcf3a3a",
+            "Value": {
+                "id": "cba4c0fa-68aa-45ef-a407-fda3a29273d3",
+                "resourcePath": "datafiles_yy\\assets\\cw_nrm.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        }
+    ],
+    "script_order": [
+        "1b6b2f32-7c5d-41c4-9895-f9f84d447da7",
+        "00b03550-84f9-4b20-bdee-bf52837a566f",
+        "02e5b11c-8d1c-420d-a373-994d30f5923c",
+        "69ed9f64-b076-46f2-b9c4-84ac84591810",
+        "c0c3856f-e0e1-4547-9454-5c05f87c8cb1"
+    ],
+    "tutorial": ""
+}

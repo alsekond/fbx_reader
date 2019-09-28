@@ -1,0 +1,5 @@
+* text=auto
+*.obj binary
+*.yy  linguist-vendored
+*.yyp linguist-vendored
+*.fbx binary
