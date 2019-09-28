@@ -12,8 +12,9 @@ Unfortunatelly not all animations can be loaded using this readed. Please check 
 * animation only skeletal (not strict)
 
 I tested this asset only using fbx 7400 version exported from Blender.
+Code written using GMEdit.
 
-Maintained by: Alexander Kondyrev
+Maintained by: [Alexander Kondyrev](https://twitter.com/alsekond)
 
 ### Credits
 
