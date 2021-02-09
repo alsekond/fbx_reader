@@ -2,7 +2,7 @@
 /// @arg array
 /// @arg value
 var array = argument0, value = argument1;
-var len = array_length_1d( array );
+var len = array_length( array );
 array[@len] = value;
 
 #define fbx_array_from_string
@@ -20,7 +20,7 @@ return array;
 /// @arg a2
 var a1 = argument0, a2 = argument1;
 var i = -1;
-var len = array_length_1d(a2);
+var len = array_length(a2);
 while ++i < len
 {
     fbx_array_push(a1,a2[i]);
@@ -82,7 +82,7 @@ ds_list_mark_as_map(list,ds_list_size(list)-1);
 /// @arg array
 var array = argument0;
 var len, list, i;
-len = array_length_1d(array);
+len = array_length(array);
 list = ds_list_create();
 i = -1;
 while ++i < len
@@ -95,7 +95,7 @@ var array = argument0;
 var i, str, len;
 i   = -1;
 str = "";
-len = array_length_1d( array );
+len = array_length( array );
 while ++i < len
 {
     str += chr(array[i]);
@@ -288,6 +288,7 @@ else
 }
 
 #define fbx_material_set
+/// @arg mat
 //!#import Blank
 var mat/*:FBX_PBR_Mat*/ = argument0;
 ;
@@ -304,6 +305,8 @@ var sampler = shader_get_sampler_index( shader_current(), name );
 texture_set_stage( sampler, tex );
 
 #define fbx_material_assign
+/// @arg fbx
+/// @arg name
 
 //! #import Blank
 var fbx/*:FBX_Pool*/ = argument0, name = argument1;
@@ -311,7 +314,7 @@ var fbx/*:FBX_Pool*/ = argument0, name = argument1;
 var geoms, mat, i, len, geom/*:FBX_Model*/;
 mat     = fbx_load_pbr_mat(name);
 geoms   = fbx[FBX_Pool.geom];
-len     = array_length_1d(geoms);
+len     = array_length(geoms);
 i = -1;
 while ++i < len
 {
@@ -320,6 +323,9 @@ while ++i < len
 }
 
 #define fbx_material_assign_by_index
+/// @arg fbx
+/// @arg index
+/// @arg name
 
 //! #import Blank
 var fbx/*:FBX_Pool*/ = argument0, index = argument1, name = argument2;
@@ -327,7 +333,7 @@ var fbx/*:FBX_Pool*/ = argument0, index = argument1, name = argument2;
 var geoms, mat, i, len, geom/*:FBX_Model*/;
 mat     = fbx_load_pbr_mat(name);
 geoms   = fbx[FBX_Pool.geom];
-len     = array_length_1d(geoms);
+len     = array_length(geoms);
 i = -1;
 while ++i < len
 {

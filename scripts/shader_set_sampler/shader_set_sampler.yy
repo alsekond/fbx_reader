@@ -1,8 +1,12 @@
 {
-    "id": "00b03550-84f9-4b20-bdee-bf52837a566f",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "shader_set_sampler",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "shader_set_sampler",
+  "tags": [],
+  "resourceType": "GMScript",
 }

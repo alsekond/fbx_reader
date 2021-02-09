@@ -1,8 +1,12 @@
 {
-    "id": "02e5b11c-8d1c-420d-a373-994d30f5923c",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "model_load_vbf",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "model_load_vbf",
+  "tags": [],
+  "resourceType": "GMScript",
 }

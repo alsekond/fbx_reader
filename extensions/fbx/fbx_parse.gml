@@ -131,7 +131,8 @@ return args;
 var filename = argument0;
 var b = buffer_load(filename);
 var head_magic = fbx_array_from_string("Kaydara FBX Binary");
-fbx_array_concat(head_magic,[$20,$20,$00,$1A,$00]);
+//fbx_array_concat(head_magic,[$20,$20,$00,$1A,$00]);
+fbx_array_concat(head_magic,[32,32,0,26,0]);
 
 var magic = fbx_buffer_read_len(b,array_length_1d(head_magic));
 if not array_equals(head_magic,magic) 
